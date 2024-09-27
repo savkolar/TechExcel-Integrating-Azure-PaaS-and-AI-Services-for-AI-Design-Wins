@@ -8,12 +8,12 @@ param sqlAdminPassword string = 'g@G9@2nD7C1BP%uh'
 param deployments array = [
   {
     name: 'gpt-4o'
-    capacity: 40
+    capacity: 5
     version: '2024-05-13'
   }
   {
     name: 'text-embedding-ada-002'
-    capacity: 120
+    capacity: 5
     version: '2'
   }
 ]
